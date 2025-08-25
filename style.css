@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+header{
+    color: aliceblue;
+}
+footer{color: aliceblue;}
+
+.card {
+  background: url("images/bows.png") no-repeat center center/cover;
+  padding: 20px;
+  margin: 50px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  color: white; /* make text visible if image is dark */
+}
+
+
+.card img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:first-child { background: #0077b5; } /* LinkedIn */
+.links a:last-child { background: #333; }   /* GitHub */
+
+h2{
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(0, 0, 0);
+}
