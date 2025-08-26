@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, sans-serif;
+  padding: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 520px;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  vertical-align: top;
+}
+
+td:first-child {
+  width: 120px;
+  font-weight: 600;
+  background: #fafafa;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+
+a.linkedin:hover {
+  color: #0077b5; 
+  border-bottom: 2px solid #0077b5;
+}
+
+a.instagram:hover {
+  color: #e1306c; 
+  border-bottom: 2px solid #e1306c;
+}
+
+a.github:hover {
+  color: #000000; 
+  border-bottom: 2px solid #000000;
+}
