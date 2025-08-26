@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+
+.left {
+  width: 50%;
+  background-color: #f8bcd9; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  background-color: #f9d6e9;
+  padding: 60px; 
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.15);
+  width: 380px; 
+}
+
+.profile-card img {
+  width: 200px;  
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.profile-card h2 {
+  margin: 12px 0;
+  color: #b0005a;
+  font-size: 28px; 
+}
+
+.profile-card p {
+  color: #555;
+  font-weight: bold;
+  font-size: 18px; 
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+.buttons a {
+  text-decoration: none;
+  padding: 12px 24px; 
+  margin: 8px;
+  border: 2px solid #b0005a;
+  border-radius: 10px;
+  color: #b0005a;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background-color: #b0005a;
+  color: white;
+}
+
+
+.right {
+  width: 50%;
+  background-color: #fde7f1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px; 
+}
+
+.right h1 {
+  font-size: 46px; 
+  color: #b0005a;
+  margin-bottom: 15px;
+}
+
+.right h3 {
+  color: #ff4da6;
+  margin-bottom: 25px;
+  font-size: 22px; 
+}
+
+.right p {
+  color: #333;
+  line-height: 1.8;
+  font-size: 20px; 
+}
