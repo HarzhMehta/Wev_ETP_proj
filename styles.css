@@ -46,3 +46,29 @@ body {
             color: #005582;
             text-decoration: underline;
         }
+        .C1 a button{
+            background-color: #b6dbef;
+            border-radius: 5px;
+            font-weight: 700;
+            color: #393a3b;
+            
+        }
+        .C1 a button:hover{
+            transform: scaleY(1.1);
+            background-color: #0077b5;
+            color: #f4f6f9;
+            transition: 1s;
+        }
+        .C2 a button{
+            background-color: #7b7878;
+            border-radius: 5px;
+            color: rgb(231, 228, 223);
+            font-weight: 700;
+
+        }
+        .C2 a button:hover{
+            background-color: #f8990c;
+            transform: scaleY(1.1);
+            transition: 1s;
+            color: rgb(0, 0, 0);
+        }
